@@ -1,0 +1,455 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "name call",
+      "patterns": [
+        "what is your name",
+        "what should i call you",
+        "who are you",
+        "some idea about you"
+      ],
+      "responses": ["i am SNJBEEA", "Heyy, I am SNJBEEA Thank you for asking"]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "How you can help me",
+        "what you can do for me",
+        "what is your job",
+        "which information you can provide",
+        "how can i use you"
+      ],
+      "responses": [
+        "You can ask me information about College, placement, library, departments, student section, events Etcetera"
+      ]
+    },
+    {
+      "tag": "college name",
+      "patterns": [
+        "can you tell me college name",
+        "tell me about your college",
+        "college information",
+        "details about college "
+      ],
+      "responses": [
+        "SNJBs Late Sau Kantabai Bhavarlalji Jain College of Engineering which is approved by the All India Council of Technical Education (AICTE),New Delhi and Government of Maharashtra and is affiliated to the University of Pune, was established in the year 2004 with four branches viz. Mechanical Engineering, Computer Engineering, Electronics & Telecommunications Engineering and Civil Engineering"
+      ],
+      "link": "http://www.snjb.org/engineering/About/about_engineering#about"
+    },
+    {
+      "tag": "college timing",
+      "patterns": [
+        "When college is open",
+        "what is college timing",
+        "college time",
+        "when college opens "
+      ],
+      "responses": [
+        "Engineering College opens at 9:30 Am and Closes at 4:30 PM on Monday to Saturday"
+      ],
+      "link": "http://www.snjb.org/engineering/About/about_engineering#aboutt"
+    },
+    {
+      "tag": "college achievements",
+      "patterns": [
+        "what are the college acievements",
+        "what are the college awards"
+      ],
+      "responses": [
+        "College got many awads few of them are NBA Accreditation For Computer and Mechanical Engineering Department   Savitribai Phule Pune University Best College Award-2018  Best Institute Of The Year CSI TECHNEXT India 2018  for more information please visit our website."
+      ],
+      "link": "http://www.snjb.org/engineering/About/engineering_mba_awards_acievements"
+    },
+    {
+      "tag": "college contact",
+      "patterns": [
+        "how can i contact to college",
+        "college contact information",
+        "what is college address",
+        "how can i contact to college"
+      ],
+      "responses": [
+        "college address is Jain Gurukul  Neminagar, Chandwad  you can connect with us our  phone number is  (02556) 253750 mail us on principalcoe@snjb.org"
+      ],
+      "link": "http://www.snjb.org/engineering/About/engineering_mba_contact_us"
+    },
+    {
+      "tag": "college established year",
+      "patterns": [
+        "In which year college was established",
+        "How many years are completed by this college",
+        "How many years have been completed to this college",
+        "when college is established"
+      ],
+      "responses": [
+        "Established in the year 2004 with four branches  Mechanical Engineering Computer Engineering Electronics & Telecommunications Engineering and Civil Engineering.In the year 2010 saw the assimilation of MBA under the SNJB's Late Sau Kantabai Bhavarlalji Jain College of Engineering. Similarly the year 2020 viewed the establishment of a new branch of Artificial Intelligence and Data Science."
+      ],
+      "link": "http://www.snjb.org/engineering/About/about_engineering#about"
+    },
+    {
+      "tag": "college coordinators",
+      "patterns": [
+        "tell me about college coordinators",
+        "who is the college coordinators",
+        "college coordinator"
+      ],
+      "responses": [
+        "college coordinators are Shri. Dineshkumar Bhagchandji Lodha  Shri. Zumbarlal Hiralalji Bhandari and Shri. Sunilkumar Mohanlalji Chopda"
+      ],
+      "link": "http://www.snjb.org/engineering/About/engineering_mba_coordinators_message"
+    },
+    {
+      "tag": "college principal",
+      "patterns": [
+        "who is principal of engineering college",
+        "principal of your college",
+        "tell me principal name"
+      ],
+      "responses": [
+        "Doctor M.D.Kokate is the principal of SNJBs college of Engineering"
+      ],
+      "link": "http://www.snjb.org/engineering/About/engineering_mba_principals_message"
+    },
+    {
+      "tag": "college voice principal",
+      "patterns": [
+        "who is vice  principal of engineering college",
+        "vice  principal of your college",
+        "tell me voice principal name"
+      ],
+      "responses": [
+        "Doctor M.R. Sanghavi is the Voice Principal of SNJBs College of Engineering "
+      ],
+      "link": "http://www.snjb.org/engineering/About/about_engineering#aboutt"
+    },
+    {
+      "tag": "college department",
+      "patterns": [
+        "how many departments are there in your college",
+        "tell me count of departments in your college",
+        "which departments are available in ypur college  "
+      ],
+      "responses": [
+        "Established in the year 2004 with four branches  Mechanical Engineering Computer Engineering Electronics & Telecommunications Engineering and Civil Engineering.In the year 2010 saw the assimilation of MBA under the SNJB's Late Sau Kantabai Bhavarlalji Jain College of Engineering. Similarly the year 2020 viewed the establishment of a new branch of Artificial Intelligence and Data Science."
+      ],
+      "link": "http://www.snjb.org/engineering/Computer_engineering/computer_engineering_profile"
+    },
+    {
+      "tag": "computer department labs",
+      "patterns": [
+        "number of labs available in computer department",
+        "what are the labs available in computer department",
+        "laboratory available in computer department"
+      ],
+      "responses": [
+        "The department has 9 labs Software laboratory Network laboratory Computer Graphics Laboratory Computer Science Laboratory Project Laboratory Advance Programming laboratory Hardware Laboratory\nComputer Centre Laboratory Computer Design Lab"
+      ],
+      "link": "http://www.snjb.org/engineering/Computer_engineering/computer_engineering_profile"
+    },
+    {
+      "tag": "computer cnl lab",
+      "patterns": [
+        "where the cn lab is located",
+        "location of computer network lab",
+        "computer network lab number",
+        "where is cnl lab"
+      ],
+      "responses": [
+        "computer network lab number is 137 and professor  G P Dhomase  is cnl lab incharge"
+      ],
+      "link": "https://padlet.com/dhomsegpcoe/cnl-laboratory-137-hr9f9glmpi0fdd7o"
+    },
+    {
+      "tag": "computer vision",
+      "patterns": [
+        "what is the vision of computer department",
+        "vision of computer department"
+      ],
+      "responses": [
+        "To empower young generations for significant contribution in the field of computer engineering through excellence in knowledge  technical education and innovation to cater the industrial demands and societal needs"
+      ],
+      "link": "http://www.snjb.org/engineering/Computer_engineering/computer_engineering_profile"
+    },
+    {
+      "tag": "computer mission",
+      "patterns": [
+        "what is the mission of computer department",
+        "mission of computer department"
+      ],
+      "responses": [
+        "To achieve academic excellence by inculcating basic and latest knowledge in which new idea flourish"
+      ],
+      "link": "http://www.snjb.org/engineering/Computer_engineering/computer_engineering_profilee"
+    },
+    {
+      "tag": "computer department",
+      "patterns": [
+        "tell me information of computer department",
+        "about computer department",
+        "computer department information"
+      ],
+      "responses": [
+        "Department of Computer Engineering was started in 2004 with the intake of 150 (60 in 2004+60 in 2019 and 30 in 2022)  Department has excellent infrastructure and human resources the course"
+      ],
+      "link": "http://www.snjb.org/engineering/Computer_engineering/computer_engineering_profile"
+    },
+    {
+      "tag": "computer sl lab",
+      "patterns": [
+        "where the software lab is located",
+        "location of sl  lab",
+        "software lab number",
+        "where is sl lab"
+      ],
+      "responses": [
+        "Professor S.B. Ambore is Software Laboratory incharge  and lab number is 136."
+      ],
+      "link": "https://padlet.com/ambhoresbcoe/software-laboratory-j40t2mgwpux32hod"
+    },
+    {
+      "tag": "computer cgl lab",
+      "patterns": [
+        "where is computer graphics  lab",
+        "what is cgl lab number",
+        "computer graphics lab"
+      ],
+      "responses": [
+        "Professor N.P. Bora is the  inchrge of CGL lab and CGL lab number is 110"
+      ],
+      "link": "http://www.snjb.org/engineering/Computer_engineering/computer_engineering_laboratories"
+    },
+    {
+      "tag": "computer csl lab ",
+      "patterns": [
+        "tell me about csl lab, where is computer science lab, csl lab number, what is computer science lab number"
+      ],
+      "responses": [
+        "Professor R.R.Bhandari is the Incharge of Computer Science Laboratory and CSL lan number is  133"
+      ],
+      "link": "https://padlet.com/poojahiran1996/computer-science-lab-133-2l8r6v1p0lhwdp5"
+    },
+    {
+      "tag": "computer programming lab",
+      "patterns": [
+        "tell me about programming lab",
+        "where is programing lab",
+        "what is programming lab number, programming lab location"
+      ],
+      "responses": [
+        "Professor M.P.Surse is the Incharge of Programming Lab and the lab number is 101."
+      ],
+      "link": "https://padlet.com/sursempcoe/programming-laboratory-73heqx60m6kcexdb"
+    },
+    {
+      "tag": "computer apl lab",
+      "patterns": [
+        "tell me about advance programming lab",
+        " where is advance programing lab",
+        "what is advance programming lab number",
+        " advance programming lab location"
+      ],
+      "responses": [
+        "Professor S.V Sinha is the Incharge of APL lab and APL lab number is 119."
+      ],
+      "link": "ADVANCE PROGRAMMING LAB (padlet.com)"
+    },
+    {
+      "tag": "computer hl lab ",
+      "patterns": [
+        "tell me about hardware lab, where is hl  lab",
+        "what is  hl  lab number",
+        "hardware lab location"
+      ],
+      "responses": [
+        "Professor S.V Sinha is the Incharge of APL lab and APL lab number is 119."
+      ],
+      "link": "https://padlet.com/swati_sinha/advance-programming-lab-t3v5csqvrgvpcwla"
+    },
+    {
+      "tag": "computer project lab ",
+      "patterns": [
+        "tell me about project  lab",
+        "where is project lab",
+        "what is pl  lab number",
+        "project  lab location"
+      ],
+      "responses": [
+        "Professor D. S. Rajnor is the Incharge of Project Lab A  lab and PL lab number is 110A."
+      ],
+      "link": "https://padlet.com/patilsumitscoe/project-lab-9yftsdpln47s14dg"
+    },
+    {
+      "tag": "computer cl 1",
+      "patterns": [
+        "tell me about computer lab1",
+        "where is computer  lab 1",
+        " what is cl 1 lab number",
+        "computer  lab 1 location"
+      ],
+      "responses": [
+        "Professor S.A. Chavan is the Incharge of CL 1 lab and CL 1 lab number is 220."
+      ],
+      "link": "https://padlet.com/kankariyakvcoe/cl-i-notice-board-22-23-sem-i-1xwducu9t90ei1t0"
+    },
+    {
+      "tag": "computer cl 2",
+      "patterns": [
+        "tell me about computer lab2, where is cl 2 lab, what is computer  lab 2 number",
+        " computer  lab 2 location"
+      ],
+      "responses": [
+        "Professor G.H Deshmukh is the Incharge of CL 2 lab and CL 2 lab number is 234."
+      ],
+      "link": "https://padlet.com/kankariyakvcoe/cl-ii-notice-board-22-23-sem-i-nzrqpp2m43x227t1"
+    },
+    {
+      "tag": "computer open source  lab",
+      "patterns": [
+        "tell me about open source lab",
+        "where is os lab, what is open source lab number",
+        "open source lab location"
+      ],
+      "responses": "Professor D.R Agrawal  is the Incharge of open source lab and OS lab number is 239.",
+      "link": "https://padlet.com/ShrikantWagh/open-source-lab-239-qrl9r6tzbw4o4egj"
+    },
+    {
+      "tag": "computer operating system lab",
+      "patterns": [
+        "tell me about operating system lab, where is operating system lab",
+        "what is os lab number",
+        "operating system lab location"
+      ],
+      "responses": [
+        "Professor P.N.Achaliya is the Incharge of OS lab and operating system lab number is 238."
+      ],
+      "link": "https://padlet.com/ShrikantWagh/operatin-system-lab-238-lx8vucqka66aebur"
+    },
+    {
+      "tag": "computer placement ",
+      "patterns": [
+        "tell me about computer department placement",
+        " count of computer department placement  for this year"
+      ],
+      "responses": "In year 2021 to 22 we have 55+ students placed in top companies with  The highest package of 10 lakh per annum . and past 5 years we have 280+ placement count.",
+      "link": "http://www.snjb.org/engineering/Computer_engineering/computer_engineering_placements_statistics"
+    },
+    {
+      "tag": "computer people",
+      "patterns": [
+        "tell me about teachers available in computer department",
+        "teachers at snjb college of engineering ",
+        "faculty available at engineering college,"
+      ],
+      "responses": "We have excellent faculties at our college with very good technical knowledge . Know more about faulties please visit our website",
+      "link": "http://www.snjb.org/engineering/Computer_engineering/computer_engineering_people"
+    },
+    {
+      "tag": "computer result ",
+      "patterns": [
+        "result of computer epartment",
+        "tell me about computer result "
+      ],
+      "responses": [
+        "With an excellent education we have 100 % result of past 2 years and average result of past 5 years is 97%. for more information please visit our website."
+      ],
+      "link": "http://www.snjb.org/engineering/Computer_engineering/computer_engineering_results"
+    },
+    {
+      "tag": "computer events ",
+      "patterns": [
+        "  events organized by computer department",
+        " what are the events organized by computer department"
+      ],
+      "responses": [
+        "In academic year computer department has organized many technical as well as non technical events such as Career Opportunity in GRE/TOFEL Exam & Study Abroad   CSS in Web Designing  Webinar on Career Opportunity in Data Science etcetera for more details about events please visit our website"
+      ],
+      "link": "http://www.snjb.org/engineering/Computer_engineering/computer_engineering_events"
+    },
+    {
+      "tag": "computer department achievment ",
+      "patterns": [
+        "what are the achievments of computer departments",
+        " awards of computer departments "
+      ],
+      "responses": "Awarded as Best HoD of the Year by Computer Society of India Mumbai Chapter 2019  . Prof.B.A.Khivsara is Awarded as Adarsh Shikash Puraskar by Mahavir International Nashik\r\nProf.R.R.Bhandari is Awarded BEST FACULTY OF THE YEAR AWARD BY COMPUTER SOCIETY OF INDIA\r\nLady Engineer Award to Prof. B. A. Khivsara by Institute of Engineers in Year 2016  and so many for more information please visit our website",
+      "link": "http://www.snjb.org/engineering/Computer_engineering/computer_engineering_achievements"
+    },
+    {
+      "tag": "computer space",
+      "patterns": [
+        "tell me about computer department student association",
+        "what is space",
+        "tell me about space association "
+      ],
+      "responses": [
+        "SPACE  found in the year 2006. The main motive behind forming this association is to improve the technical and non-technical skills of the students which are needed beyond academics. "
+      ],
+      "link": "http://www.snjb.org/engineering/Computer_engineering/computer_engineering_students_association"
+    },
+    {
+      "tag": "computer department library",
+      "patterns": [
+        "tell me about computer department library",
+        "is there  a library at computer department",
+        "computer department library"
+      ],
+      "responses": "Professor N P Bora is the faculty incharge of  computer department library. The Department of Computer Engineering maintains a reference library with more than 700 books. This library is accessible to the faculty and students. ",
+      "link": "http://www.snjb.org/engineering/Computer_engineering/computer_engineering_departmental_library"
+    },
+    {
+      "tag": "computer department committees",
+      "patterns": [
+        "what are the computer department committiees",
+        "committiees under computer department"
+      ],
+      "responses": "Computer Engineering Department has committies such as Departmental Advisory Board and Program Assessment and Quality Improvement Committee",
+      "link": "http://www.snjb.org/engineering/Computer_engineering/department_committee"
+    },
+    {
+      "tag": "library rules",
+      "patterns": [
+        "what are rules of library for new enrolled student",
+        "which are those rules need to  obey  by students "
+      ],
+      "responses": "Library regular timings is 9.30 am to 4:30 pm & will be extended during exam period.",
+      "link": "http://www.snjb.org/engineering/Library/engineering_library"
+    },
+    {
+      "tag": "book issue",
+      "patterns": [
+        "can I issue book for home",
+        "is there any fine for late submission of book issue"
+      ],
+      "responses": [
+        "Books will be issued to every student for a duration of 15 days only; from the 16 day onwards a fine of Re.1.00 will be charged per day for each book."
+      ],
+      "link": "http://www.snjb.org/engineering/Library/engineering_library"
+    }
+  ]
+}
